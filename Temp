@@ -1,0 +1,30 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main()
+{
+	float celsius;
+	float fahrenheit;
+	double a, b;
+
+	cout << "Enter the temperatue in Celsius " << endl;
+	cin >> celsius;
+	cout << "Enter the temperatue in Fahrenheit" << endl;
+	cin >> fahrenheit;
+
+	a = (fahrenheit - 32) * (9 / 5);
+	b = (celsius * 9 / 5) + 32;
+
+	cout << celsius << " C is " << b << "F " << endl;
+
+	cout << fahrenheit << " F is " << a << "C " << endl;
+
+
+
+
+
+
+	return 0;
+}
+
