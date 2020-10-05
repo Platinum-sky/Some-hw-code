@@ -1,0 +1,33 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+class  student {
+	char lname[30];
+	char fname[30];
+	    int id;
+	double gpa;
+public:
+
+
+	void getStudent()
+	{
+		cout << "Input a student record:\n";
+		cin >> lname >> fname >> id >> gpa;
+	}
+	void displayStudent()
+	{
+		cout << "The student's record is:\n";
+		cout << lname << ' ' << fname << ' ' << id << ' ' << gpa << endl;
+	}
+
+};
+
+
+void main()
+{
+	student stu1;
+	stu1.getStudent();       
+    stu1.displayStudent();
+}
+
