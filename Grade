@@ -1,0 +1,52 @@
+#include <iostream>
+
+using namespace std;
+
+
+double finalgrade(double score);
+
+
+int main() {
+	
+double score;
+	
+cout << "enter the grade" << endl;
+
+cin >> score;
+	finalgrade(score);
+
+	
+	return 0;
+	
+}
+
+double finalgrade(double score)
+
+{
+	if (score >= 90) {
+	
+	cout << "A" << endl;
+	}
+
+	else if (score >= 80) {
+	
+	cout << "B" << endl;
+	}
+
+	else if (score >= 70) {
+	
+	cout << "C" << endl;
+	}
+
+	else if (score >= 60) {
+	
+	cout << "D" << endl;
+	}
+
+	else {
+		cout << "F" << endl;
+	}
+
+	return score;
+	return 0.0;
+}
